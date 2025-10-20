@@ -1,3 +1,6 @@
+import os
+os.system("pip install -U pip setuptools wheel")
+os.system("pip install streamlit==1.37.0 pandas==2.2.1 matplotlib==3.8.4 seaborn==0.13.2")
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
